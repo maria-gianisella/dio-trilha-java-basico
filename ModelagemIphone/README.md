@@ -14,6 +14,8 @@ Este projeto consiste na implementação de um componente iPhone em Java, modela
 
 ### Diagrama de Classes:
 
+![Diagrama](diagramaDeClasse.png)
+
 O diagrama de classes foi criado utilizando a ferramenta Astah e representa a estrutura do projeto. Ele inclui as seguintes classes e interfaces:
 
 - **iPhone**: Classe principal que representa o iPhone e implementa as interfaces de Aparelho Telefônico, Navegador na Internet e Reprodutor Musical.
