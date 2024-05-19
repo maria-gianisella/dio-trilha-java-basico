@@ -1,18 +1,40 @@
-## Getting Started
+**Contador de Números**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um simples programa Java que conta e imprime uma sequência de números entre dois parâmetros fornecidos pelo usuário.
 
-## Folder Structure
+## Como Usar o Programa
 
-The workspace contains two folders by default, where:
+1. Certifique-se de ter o ambiente Java configurado em sua máquina.
+2. Clone este repositório em sua máquina local:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```bash
+git clone https://github.com/maria-gianisella/dio-trilha-java-basico.git
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3. Navegue até o diretório do projeto:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```bash
+cd dio-trilha-java-basico
+cd DesafioControleFluxo
+```
 
-## Dependency Management
+4. Compile o arquivo `Contador.java`:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+javac Contador.java
+```
+
+5. Execute o programa:
+
+```bash
+java Contador
+```
+
+6. Siga as instruções apresentadas no terminal para inserir os dois parâmetros.
+7. O programa imprimirá os números entre os parâmetros fornecidos.
+
+## Estrutura do Projeto
+
+- **Contador.java**: O arquivo principal que contém a lógica para contar e imprimir os números.
+- **ParametrosInvalidosException.java**: Classe que define uma exceção personalizada para lidar com parâmetros inválidos.
+- **README.md**: Este arquivo, contendo informações sobre o projeto.
